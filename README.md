@@ -55,5 +55,5 @@ git branch --delete [target_branch_name]
 
 ## delete target branch remotely
 ```
-$git push origin -d [target_branch_name]
+git push origin -d [target_branch_name]
 ```
