@@ -13,6 +13,7 @@ git add . && git commit -m "initial commit"
 ```
 4. Create remote repo from CLI `gh repo create` and follow prompts 
     if not logged in in current machine, first run `gh auth login` and follow prompts
+    if `gh` not install, run `conda install gh --channel conda-forge`
 
 ## create a new repository on the command line
 ```
