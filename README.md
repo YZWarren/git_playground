@@ -11,9 +11,19 @@ git init -b main
 ```
 git add . && git commit -m "initial commit"
 ```
-4. Create remote repo from CLI `gh repo create` and follow prompts
+4. Create remote repo from CLI `gh repo create` and follow prompts 
+    if not logged in in current machine, first run `gh auth login` and follow prompts
 
-if not logged in in current machine, first run `gh auth login` and follow prompts
+## create a new repository on the command line
+```
+echo "# git_playground_test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/YZWarren/git_playground_test.git
+git push -u origin main
+```
 
 ## create branch
 ```
