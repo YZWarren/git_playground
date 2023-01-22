@@ -15,3 +15,18 @@ $git add ./
 $git commit -m '[commit message]'
 $git push --set-upstream origin [branch_name]
 ```
+
+merge target branch's history into current branch
+```
+$git merge [target_branch_name]
+```
+
+delete target branch locally
+```
+$git branch --delete [target_branch_name]
+```
+
+delete target branch remotely
+```
+$git push origin -d [target_branch_name]
+```
