@@ -1,6 +1,19 @@
 # playground
 This is in Main branch, check
 
+## Configure git in newly rented GPU service
+1. configure git name and email: 
+```
+git config --global user.name "UserName"
+git config --global user.email "UserEmail"
+```
+2. generate ssh keys
+```
+ssh-keygen -t ed25519 -C "UserEmail"
+```
+3. go to ssh keys saved file to copy ssh keys and paste into github setting, ssh keys.
+4. use ssh key to clone your repo
+
 ## Adding a local repository to GitHub with GitHub CLI
 1. In the command line, navigate to the root directory of your project.
 2. Initialize the local directory as a Git repository.
